@@ -30,7 +30,7 @@ modules:
       disk-quota: 1024M
     requires:
       - name: app-uaa
-      - name: app-db
+      - name: devapp
   
 
 
@@ -54,7 +54,7 @@ modules:
     requires:
       - name: app-uaa
       - name: app-dest
-      - name: app-db
+      - name: devapp
     provides:
       - name: srv-api
         properties:
@@ -122,7 +122,7 @@ resources:
 
 
   # ------------------- HDI CONTAINER SERVICE ------------------
-  - name: app-db
+  - name: devapp
   # ------------------------------------------------------------
     type: com.sap.xs.hdi-container
     parameters:
