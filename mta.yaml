@@ -122,7 +122,7 @@ resources:
 
 
   # ------------------- HDI CONTAINER SERVICE ------------------
-  - name: devapp
+  - name: app-db
   # ------------------------------------------------------------
     type: com.sap.xs.hdi-container
     parameters:
