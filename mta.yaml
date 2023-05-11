@@ -31,6 +31,9 @@ modules:
     requires:
       - name: app-uaa
       - name: app-db
+  
+
+
 
 
   # --------------------- SERVER MODULE ------------------------
