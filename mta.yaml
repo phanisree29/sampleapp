@@ -110,14 +110,7 @@ resources:
           instance:
             existing_destinations_policy: ignore
             destinations:
-              - Name: app-NASA-api
-                Description: NASA APIs
-                URL: https://api.nasa.gov
-                Type: HTTP
-                ProxyType: Internet
-                Authentication: NoAuthentication
-                URL.queries.api_key: <SetValueInCockpit>
-                HTML5.DynamicDestination: true
+              
 
 
 
