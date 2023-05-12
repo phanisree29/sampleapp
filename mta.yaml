@@ -30,7 +30,7 @@ modules:
       disk-quota: 1024M
     requires:
       - name: app-uaa
-      - name: apps
+      - name: app-db
   
 
 
@@ -54,7 +54,7 @@ modules:
     requires:
       - name: app-uaa
       - name: app-dest
-      - name: apps
+      - name: app-db
     provides:
       - name: srv-api
         properties:
