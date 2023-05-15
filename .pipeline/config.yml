@@ -14,8 +14,8 @@ stages:
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "depdev"
     cfSpace: "dev"
-    cfAppName: "app"
-    cfCredentialsId: "deploy-to-cf"
+    cfAppName: "sampleapp"
+    cfCredentialsId: "cfdeploy"
     deployType: "standard"
     npmExecuteEndToEndTests: false
   Compliance:
@@ -25,8 +25,8 @@ stages:
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "depdev"
     cfSpace: "dev"
-    cfAppName: "app"
-    cfCredentialsId: "deploy-to-cf"
+    cfAppName: "sampleapp"
+    cfCredentialsId: "cfdeploy"
     deployType: "standard"
     tmsUpload: false
 steps:
